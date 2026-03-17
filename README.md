@@ -24,7 +24,7 @@ Built and maintained by [@0D_KR](https://x.com/0D_KR) · Part of the [#100DaysOf
 
 | Day | Circuit | Output | Wokwi |
 |-----|---------|--------|-------|
-| 01 | AND Gate | LED ON only when both inputs HIGH | [▶ Run](#) |
+| 01 | AND Gate | LED ON only when both inputs HIGH | [▶ Run](https://wokwi.com/projects/458750462926204929) |
 | 02 | OR Gate | LED ON when either input HIGH | [▶ Run](#) |
 | 03 | NOT Gate | LED inverts input | [▶ Run](#) |
 | 04 | NAND Gate | Inverse of AND | [▶ Run](#) |
