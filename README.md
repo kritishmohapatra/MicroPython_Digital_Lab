@@ -26,7 +26,7 @@ Built and maintained by [@0D_KR](https://x.com/0D_KR) · Part of the [#100DaysOf
 |-----|---------|--------|-------|
 | 01 | AND Gate | LED ON only when both inputs HIGH | [▶ Run](https://wokwi.com/projects/458750462926204929) |
 | 02 | OR Gate | LED ON when either input HIGH | [▶ Run](https://wokwi.com/projects/458769568748320769) |
-| 03 | NOT Gate | LED inverts input | [▶ Run](#) |
+| 03 | NOT Gate | LED inverts input | [▶ Run](https://wokwi.com/projects/458828728113140737) |
 | 04 | NAND Gate | Inverse of AND | [▶ Run](#) |
 | 05 | NOR Gate | Inverse of OR | [▶ Run](#) |
 | 06 | XOR Gate | LED ON when inputs differ | [▶ Run](#) |
@@ -65,7 +65,7 @@ Built and maintained by [@0D_KR](https://x.com/0D_KR) · Part of the [#100DaysOf
 ## Folder Structure
 
 ```
-MicroPython-Digital-Lab/
+MicroPython_Digital_Lab/
 ├── 01_and_gate/
 │   ├── main.py          ← MicroPython source code
 │   ├── diagram.json     ← Wokwi circuit file
@@ -83,10 +83,10 @@ MicroPython-Digital-Lab/
 
 | Item | Details |
 |------|---------|
-| Board | ESP32 DevKit V1 |
+| Board | ESP32 DevKit C V4 |
 | Simulator | [Wokwi](https://wokwi.com) |
 | Language | MicroPython |
-| Inputs | Push buttons (GPIO with PULL_DOWN) |
+| Input method | Serial monitor (type 0 or 1) |
 | Output | LEDs |
 
 ---
@@ -94,9 +94,10 @@ MicroPython-Digital-Lab/
 ## Getting Started
 
 1. Click any **▶ Run** link in the table above — Wokwi opens instantly in your browser
-2. Press the simulated buttons to toggle inputs
-3. Watch the LED(s) reflect the circuit's truth table in real time
-4. Read `main.py` to understand the logic behind it
+2. Click the play button to start the simulation
+3. Open the serial monitor
+4. Type inputs as `A B` (e.g. `1 1`) and press Enter
+5. Watch the LED reflect the gate's output in real time
 
 No hardware required. No setup needed.
 
