@@ -5,7 +5,10 @@
 This series is **not** about replacing hardware ICs.  
 It's about understanding digital logic through **code, simulation, and visualization** — one circuit at a time.
 
+![MicroPython Digital Lab](IMAGES/banner.png)
+
 Built and maintained by [@0D_KR](https://x.com/0D_KR) · Part of the [#100DaysOfIoT](https://github.com/kritishmohapatra/100_Days_100_IoT_Projects) journey.
+
 
 ---
 
