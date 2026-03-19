@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "author": "Kritish Mohapatra",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp",
+      "top": -28.8,
+      "left": -129.56,
+      "attrs": { "env": "micropython-20231227-v1.22.0" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 44.4,
+      "left": 215.4,
+      "attrs": { "color": "green", "flip": "1" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 90.35,
+      "left": 163.2,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-gate-nand-2", "id": "nand1", "top": 76.8, "left": 38.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "r1:2", "led1:A", "green", [ "v0" ] ],
+    [ "led1:C", "esp:GND.2", "magenta", [ "h28.4", "v-86.4" ] ],
+    [ "nand1:OUT", "r1:1", "green", [ "v0" ] ],
+    [ "nand1:A", "esp:5", "magenta", [ "h0" ] ],
+    [ "esp:17", "nand1:B", "magenta", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
