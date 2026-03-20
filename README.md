@@ -31,7 +31,7 @@ Built and maintained by [@0D_KR](https://x.com/0D_KR) · Part of the [#100DaysOf
 | 02 | OR Gate | LED ON when either input HIGH | [▶ Run](https://wokwi.com/projects/458769568748320769) |
 | 03 | NOT Gate | LED inverts input | [▶ Run](https://wokwi.com/projects/458828728113140737) |
 | 04 | NAND Gate | Inverse of AND | [▶ Run](https://wokwi.com/projects/458857534514801665) |
-| 05 | NOR Gate | Inverse of OR | [▶ Run](#) |
+| 05 | NOR Gate | Inverse of OR | [▶ Run](https://wokwi.com/projects/458904903289969665) |
 | 06 | XOR Gate | LED ON when inputs differ | [▶ Run](#) |
 | 07 | XNOR + Universal Gate Demo | NAND builds everything | [▶ Run](#) |
 
